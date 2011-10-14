@@ -43,12 +43,14 @@ var methods = {
   },
   
   clear_error: function($field) {
-   var id = $field.attr('id');
-   if (this.rails_form('has_error', $field)) { $field.unwrap() }
-   
-   this.find('.field_with_errors label[for=' + id + ']')
-    .unwrap()
-    .next('.formError').remove();
+    var id = $field.attr('id');
+    if (this.rails_form('has_error', $field)) { $field.unwrap() }
+    
+    this.find('.field_with_errors label[for=' + id + ']')
+      .unwrap()
+      .next('.formError').remove();
+    
+    return this;
   },
   
   add_error: function($field, error) {
@@ -57,6 +59,8 @@ var methods = {
     this.find('label[for=' + id + ']')
       .after('<div class="formError">' + error + '</div>')
       .wrap('<div class="field_with_errors">');
+    
+    return this;
   },
   
   // display standard errors as returned by JSON
@@ -64,6 +68,7 @@ var methods = {
     for (var name in errors) {
       this.rails_form('add_error', this.fields().filter('[name*=' + name + ']'), errors[name][0]);
     }
+    return this;
   }
 };
 
