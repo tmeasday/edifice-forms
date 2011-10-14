@@ -2,7 +2,6 @@
   var showErrorSelector = 'form[data-show-errors]';
   
   $(showErrorSelector).live('ajax:error', function(event, request, status, error) {
-    console.log(request);
     // CLIENT ERROR -- server-side validation failed. -- FIXME -should this be 422 only?
     if (request.status >= 400 && request.status < 500) { 
       // if data is html, we replace this content of the form with the content
