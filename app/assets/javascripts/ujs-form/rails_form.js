@@ -42,6 +42,16 @@ var methods = {
     return $field.parent('.field_with_errors').length > 0;
   },
   
+  clear_errors: function() {
+    var $form = this;
+    this.rails_form('fields').each(function() {
+      $form.rails_form('clear_error', $(this));
+    });
+    
+    // clear base errors too
+    this.find('.errors').html('');
+  },
+  
   clear_error: function($field) {
     var id = $field.attr('id');
     if (this.rails_form('has_error', $field)) { $field.unwrap() }
@@ -50,24 +60,59 @@ var methods = {
       .unwrap()
       .next('.formError').remove();
     
-    return this;
-  },
-  
-  add_error: function($field, error) {
-    var id = $field.attr('id');
-    $field.wrap('<div class="field_with_errors">');
-    this.find('label[for=' + id + ']')
-      .after('<div class="formError">' + error + '</div>')
-      .wrap('<div class="field_with_errors">');
+    // remove from a .errors ul
+    this.find('.errors [data-for=' + id + ']').remove();
     
     return this;
   },
   
   // display standard errors as returned by JSON
   set_errors: function(errors) {
+    this.rails_form('clear_errors');
     for (var name in errors) {
-      this.rails_form('add_error', this.fields().filter('[name*=' + name + ']'), errors[name][0]);
+      for (var i in errors[name]) {
+        this.rails_form('add_error', name, errors[name][i]);
+      }
     }
+    return this;
+  },
+  
+  add_error: function(name, error) {
+    var $field = this.rails_form('fields').filter('[name*=' + name + ']');
+    $field.filter('.field_with_errors > *').unwrap();
+    $field.wrap('<div class="field_with_errors">');
+    
+    // if there is a field, and it has a label, show the error after it
+    if ($field.length) {
+      var id = $field.attr('id');
+      var $label = this.rails_form('label_for', $field);
+      var $error = $label.parent().next('.formError');
+      
+      if ($error.length) {
+        $error.text(function(i, text) {
+          return text + ', ' + error;
+        });
+      } else {
+        $label.after('<div class="formError">' + error + '</div>')
+          .wrap('<div class="field_with_errors">');
+      }
+    }
+    
+    // if there is an .errors list, show the error there
+    var $errors = this.find('ul.errors');
+    if ($errors.length) {
+      var message = name.charAt(0).toUpperCase() + name.substring(1).replace('_', ' ') + 
+        ' ' + error;
+      
+      var $li = $('<li>' + message + '</li>');
+      
+      if ($field.length) {
+        $li.attr('data-for', $field.attr('id'));
+      }
+      
+      $errors.append($li);
+    }
+    
     return this;
   }
 };
