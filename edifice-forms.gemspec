@@ -3,7 +3,7 @@ require "edifice-forms/version"
 
 Gem::Specification.new do |s|
   s.name    = 'edifice-forms'
-  s.version = EdificeForms::VERSION
+  s.version = Edifice::Forms::VERSION
   s.platform = Gem::Platform::RUBY
   s.author  = 'Tom Coleman'
   s.email   = 'tom@percolatestudio.com'

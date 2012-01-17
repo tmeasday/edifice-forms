@@ -3,10 +3,12 @@ require 'edifice-forms/controller'
 require 'edifice-forms/form_model'
 require 'edifice-forms/responder'
 
-module EdificeForms
-  class Engine < Rails::Engine
+module Edifice
+  module Forms
+    class Engine < Rails::Engine
+    end
   end
 end
 
-ActionView::Base.send :include, EdificeForms::Helper
-ActionController::Base.send :include, EdificeForms::Controller
+ActionView::Base.send :include, Edifice::Forms::Helper
+ActionController::Base.send :include, Edifice::Forms::Controller
