@@ -1,5 +1,5 @@
 (function($) {
-  var showErrorSelector = 'form[data-show-errors]';
+  var showErrorSelector = 'form[data-form*=show_errors]';
   
   $(showErrorSelector).live('ajax:error', function(event, request, status, error) {
     // CLIENT ERROR -- server-side validation failed. -- FIXME -should this be 422 only?

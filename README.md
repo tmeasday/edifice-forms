@@ -1,5 +1,5 @@
 Unobtrusive Javascript Form Extensions for Rails 3
-==========================================
+==================================================
 
 edifice-forms the part of the [edifice project](https://github.com/tmeasday/edifice) which improves your experience with forms inside rails.
 
@@ -21,9 +21,9 @@ This will result in the form submitting via AJAX, however there is no support fo
       end
     end
 
-edifice-forms extends this convention to AJAX requests. Firstly, we augment rails to respond with a 422 on invalid AJAX updates. Secondly, we add a `data-show-errors` form attribute:
+edifice-forms extends this convention to AJAX requests. Firstly, we augment rails to respond with a 422 on invalid AJAX updates. Secondly, we add a `data-form` attribute:
 
-    <%= form_for @user, :remote => true, :html => {:'data-show-errors' => true} do |f| %>
+    <%= form_for @user, :remote => true, :html => {:'data-form' => 'show_errors'} do |f| %>
 
 Now, when your users controller returns an error + an updated form with the errors highlighted, we'll automatically replace the form with the 'errored' version. Not a single line of Javascript required for such a common behaviour!
 
@@ -70,7 +70,7 @@ Which will output something like:
       <li data-for="name">Name needs a surname</li>
     </ul>
 
-Forms with `show-errors` set will detect such a structure and update it on AJAX errors.
+Forms with `show_errors` set will detect such a structure and update it on AJAX errors.
 
 Use at your discretion.
 
@@ -109,7 +109,7 @@ Looks a lot like a ActiveRecord model, doesn't it? We get to write our controlle
 Don't worry, we can use the `@feedback` in our views just as we would with a real model:
 
     <%= form_for @feedback, :remote => true, 
-          :html => {:'data-show-errors' => true} do |f| %>
+          :html => {:'data-form' => 'show_errors'} do |f| %>
       <%= f.label :message, 'Your Feedback' %>
       <%= f.error_message_on :message %>
       <%= f.text_area :message, :placeholder => 'How can we help?' %>
