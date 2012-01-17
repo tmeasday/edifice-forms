@@ -1,4 +1,4 @@
-module RailsUjsForm
+module EdificeForms
   module Helper
     # not sure why there isn't something like this in rails
     #

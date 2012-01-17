@@ -1,9 +1,9 @@
 $:.push File.expand_path("../lib", __FILE__)
-require "rails-ujs-form/version"
+require "edifice-forms/version"
 
 Gem::Specification.new do |s|
-  s.name    = 'rails-ujs-form'
-  s.version = RailsUjsForm::VERSION
+  s.name    = 'edifice-forms'
+  s.version = EdificeForms::VERSION
   s.platform = Gem::Platform::RUBY
   s.author  = 'Tom Coleman'
   s.email   = 'tom@percolatestudio.com'
