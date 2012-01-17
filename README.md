@@ -1,7 +1,9 @@
-Unobtrusive JS Form Extensions for Rails 3
+Unobtrusive Javascript Form Extensions for Rails 3
 ==========================================
 
-edifice-forms is part of the [edifice project](https://github.com/tmeasday/edifice) which improves your experience with forms inside rails.
+edifice-forms the part of the [edifice project](https://github.com/tmeasday/edifice) which improves your experience with forms inside rails.
+
+Note that it does not depend on edifice, although it complements it well.
 
 Extending remote forms to handle errors
 ---------------------------------------
@@ -12,7 +14,7 @@ Rails 3 includes the excellent Unobtrusive JS, which allows us to define remote 
 
 This will result in the form submitting via AJAX, however there is no support for errors in the form. This is surprising as the convention for rails form errors is clearly defined; return a HTML status 422 (`:unprocessible_entity`). In fact this is what the `responds_with` responder will do (for non-AJAX requests):
 
-    // Super-lean Rails controllers are what we like
+    # Super-lean Rails controllers do it for me
     class UsersController
       def update
         respond_with @user = User.update(params[:user])
@@ -23,7 +25,7 @@ edifice-forms extends this convention to AJAX requests. Firstly, we augment rail
 
     <%= form_for @user, :remote => true, :html => {:'data-show-errors' => true} do |f| %>
 
-Now, when your users controller returns an error + an updated form with errors highlighted, we automatically replace the form with the 'errored' version. Not a single line of Javascript required for such a common behaviour!
+Now, when your users controller returns an error + an updated form with the errors highlighted, we'll automatically replace the form with the 'errored' version. Not a single line of Javascript required for such a common behaviour!
 
 rails_form.js
 -------------
@@ -115,14 +117,7 @@ Don't worry, we can use the `@feedback` in our views just as we would with a rea
 
 Simple, huh?
 
+License
+-------
 
-
-
-
-
-
-
-
-
-
-
+Edifice is crafted by [Percolate Studio](http://percolatestudio.com) and released under the [MIT license](www.opensource.org/licenses/MIT)
