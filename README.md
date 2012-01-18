@@ -70,7 +70,6 @@ Which will result in:
 The error can be removed with:
     
 ```js
-// FIXME -- this isn't how it's implemented right now
 $('form').rails_form('clear_error', 'user[name]');
 ```
 

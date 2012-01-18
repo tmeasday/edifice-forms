@@ -19,6 +19,14 @@ var methods = {
     return this.find('input, textarea, select');
   },
   
+  field: function(name_or_field) {
+    if (name_or_field instanceof $) {
+      return name_or_field;
+    } else {
+      return this.rails_form('fields').filter('[name*=' + $.escape(name_or_field) + ']');
+    }
+  },
+  
   error_fields: function() {
     var $form = this;
     return this.rails_form('fields').filter(function() {
@@ -30,15 +38,17 @@ var methods = {
     return this.find('input[type=submit], button[type=submit]');
   },
   
-  label_for: function($field) {
+  label_for: function(name_or_field) {
+    var $field = this.rails_form('field', name_or_field);
     return this.find('label[for=' + $field.attr('id') + ']');
   },
   
-  error_on: function($field) {
-    return this.rails_form('label_for', $field).parents('.field_with_errors').next('.formError');
+  error_on: function(name_or_field) {
+    return this.rails_form('label_for', name_or_field).parents('.field_with_errors').next('.formError');
   },
   
-  has_error: function($field) {
+  has_error: function(name_or_field) {
+    var $field = this.rails_form('field', name_or_field);
     return $field.parent('.field_with_errors').length > 0;
   },
   
@@ -52,7 +62,8 @@ var methods = {
     this.find('.errors').html('');
   },
   
-  clear_error: function($field) {
+  clear_error: function(name_or_field) {
+    var $field = this.rails_form('field', name_or_field);
     var id = $field.attr('id');
     if (this.rails_form('has_error', $field)) { $field.unwrap() }
     
@@ -77,8 +88,8 @@ var methods = {
     return this;
   },
   
-  add_error: function(name, error) {
-    var $field = this.rails_form('fields').filter('[name*=' + name + ']');
+  add_error: function(name_or_field, error) {
+    var $field = this.rails_form('field', name_or_field);
     $field.filter('.field_with_errors > *').unwrap();
     $field.wrap('<div class="field_with_errors">');
     
@@ -101,6 +112,8 @@ var methods = {
     // if there is an .errors list, show the error there
     var $errors = this.find('ul.errors');
     if ($errors.length) {
+      // turns bindle[0][name] -> name etc
+      var name = $field.attr('name').replace(/^.*\[(.*)\]$/, '$1');
       var message = name.charAt(0).toUpperCase() + name.substring(1).replace('_', ' ') + 
         ' ' + error;
       
