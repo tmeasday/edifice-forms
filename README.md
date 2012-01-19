@@ -1,9 +1,18 @@
 Unobtrusive Javascript Form Extensions for Rails 3
 ==================================================
 
-edifice-forms the part of the [edifice project](https://github.com/tmeasday/edifice) which improves your experience with forms inside rails.
+Edifice-widgets is a companion gem to [edifice](/tmeasday/edifice) which improves and simplifies your experience writing forms for rails.
 
 Note that it does not depend on edifice, although it complements it well.
+
+Installation
+------------
+
+To install, simply add to your Gemfile:
+
+```ruby
+gem 'edifice-forms'
+```
 
 Extending remote forms to handle errors
 ---------------------------------------
