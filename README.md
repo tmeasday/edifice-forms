@@ -14,6 +14,14 @@ To install, simply add to your Gemfile:
 gem 'edifice-forms'
 ```
 
+To include the javascript, add to your application.js:
+
+```js
+/*
+ *= require edifice-forms
+ */
+```
+
 Extending remote forms to handle errors
 ---------------------------------------
 
