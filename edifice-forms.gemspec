@@ -7,7 +7,8 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.author  = 'Tom Coleman'
   s.email   = 'tom@percolatestudio.com'
-  s.summary = 'Unobtrusive JS Form extensions'
+  s.summary = 'Unobtrusive Rails JS Form extensions'
+  s.description = 'Edifice-widgets is a companion gem to edifice which improves and simplifies your experience writing forms for rails.'
 
   s.add_dependency 'jquery-rails'
 
