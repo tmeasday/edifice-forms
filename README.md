@@ -122,9 +122,11 @@ class Feedback < Edifice::Forms::FormModel
   validates :email, :presence => true, :format => {:with => /^.+@.+\..+$/}
   validates :message, :presence => true
   
+  after_save :deliver_feedback
+  
   # if validations pass and we successfully save, go ahead and deliver the 
   # feedback email to us, so we can read it.
-  def save
+  def deliver_feedback
     SelfMailer.feedback(self).deliver
   end
 end

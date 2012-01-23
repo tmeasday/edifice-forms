@@ -5,6 +5,7 @@ module Edifice
     protected 
       # add the :u_e header to xhr error requests
       def navigation_behavior(error)
+        ::Rails.logger.warn '>>>>>>> has_errors? is: ' + (has_errors? ? 'true' : 'false')
         if controller.request.xhr? && !get? and has_errors? && default_action
           render :action => default_action, :status => :unprocessable_entity, :layout => nil
         else

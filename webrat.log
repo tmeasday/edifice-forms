@@ -1,0 +1,201 @@
+# Logfile created on Thu Jan 19 18:37:19 +1100 2012 by logger.rb/22285
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new_html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new_html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>"whatever"}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET http://www.example.com/users with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"commit"=>"Submit", "utf8"=>"\342\234\223", "user"=>{"name"=>""}} and HTTP headers {"HTTP_REFERER"=>"users/new?type=html&ajax=false"}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/new?type=html&ajax=false with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/new?type=html&ajax=false with {} and HTTP headers {}

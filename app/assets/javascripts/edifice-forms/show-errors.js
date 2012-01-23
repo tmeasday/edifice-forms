@@ -14,7 +14,15 @@
         
       } else if (/json/.test(contentType)) {
         // we will be receiving an error object back, we can pass it straight into rails_form.js
-        $(this).rails_form('set_errors', $.parseJSON(request.responseText));
+        $('body').append('<pre>' + request.responseText + '</pre>');
+        var errors = $.parseJSON(request.responseText);
+        
+        // they are using namespaced JSON
+        if ('errors' in errors && !$.isArray(errors['errors'])) {
+          errors = errors['errors']
+        }
+        
+        $(this).rails_form('set_errors', errors);
       } else {
         throw "edifice-forms/show-errors: Don't know how to handle dataType " + request.dataType;
       }

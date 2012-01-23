@@ -16,7 +16,7 @@ $.fn.rails_form = function(method) {
 // in these 'this' is the $form
 var methods = {
   fields: function() {
-    return this.find('input, textarea, select');
+    return this.find('input:not([type=hidden]):not([type=submit]), textarea, select');
   },
   
   field: function(name_or_field) {
