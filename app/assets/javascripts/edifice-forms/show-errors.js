@@ -1,7 +1,7 @@
 (function($) {
   var showErrorSelector = 'form[data-form*=show_errors]';
   
-  $(showErrorSelector).live('ajax:error', function(event, request, status, error) {
+  $(document).on('ajax:error', showErrorSelector, function(event, request, status, error) {
     // CLIENT ERROR -- server-side validation failed. -- FIXME -should this be 422 only?
     if (request.status >= 400 && request.status < 500) { 
       // if data is html, we replace this content of the form with the content
